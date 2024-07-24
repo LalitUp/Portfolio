@@ -1,0 +1,138 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    animation:ease-in;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.section {
+    margin: 40px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff6f61, #d4a5a5);
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.section:nth-child(even) {
+    background: linear-gradient(135deg, #6a3093, #46d293);
+}
+
+.section:nth-child(odd) {
+    background: linear-gradient(135deg, #ffb347, #ffcc33);
+}
+
+.section:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.section:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.section:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.section:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.section:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.content ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.content ul li a:hover {
+    text-decoration: underline;
+}
