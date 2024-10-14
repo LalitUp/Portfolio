@@ -1,0 +1,152 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1e90ff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  .navbar ul li a:hover {
+    color: #ff4757;
+  }
+  
+  /* Three Dots for YouTube */
+  .youtube-dots {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  .youtube-dots a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  .youtube-dots a:hover {
+    color: #1e90ff;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 60px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .home {
+    background-color: #1e90ff;
+    color: #000;
+  }
+  .about, .education, .skills, .projects, .contact {
+    background-color: #111;
+    color: #fff;
+  }
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Image */
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Cards Styling */
+  .education-card, .skill-card, .project-card {
+    background-color: #222;
+    color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .education-card:hover, .skill-card:hover, .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Skills Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .skill-card {
+    background-color: #1e90ff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    font-size: 1.2em;
+  }
+  
+  /* Contact Form */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    max-width: 100%;
+    border: 2px solid #1e90ff;
+    border-radius: 4px;
+  }
+  .contact button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .contact button:hover {
+    background-color: #ff4757;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #ff4757;
+  }
+  
